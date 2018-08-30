@@ -58,7 +58,4 @@ def self.find_by_name(name)
   def self.destroy_all
     @@all = []
   end
-  
-end
-
 end 
