@@ -12,14 +12,14 @@ class Song
   
   def self.create_by_name(string_name_of_the_song)
     song = self.new 
-    song_name = string_name_of_the_song
+    song.name = string_name_of_the_song
     song.save 
     s
  end
  
   def self.new_by_name(string_name_of_the_song)
     song = self.new 
-    s.name = string_name_of_the_song
-    s
+    song.name = string_name_of_the_song
+    song
   end 
 end 
